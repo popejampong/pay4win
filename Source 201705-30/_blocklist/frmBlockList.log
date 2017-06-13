@@ -1,0 +1,24 @@
+Line 297: Class MSComCtl2.DTPicker of control DTPicker2 was not a loaded control class.
+Line 311: Class ciaXPPanel.XPPanel of control XPPanel3 was not a loaded control class.
+Line 429: Class MSComCtl2.DTPicker of control DTPicker1 was not a loaded control class.
+Line 443: Class MSComCtl2.DTPicker of control DTPicker4 was not a loaded control class.
+Line 305: The property name _ExtentX in DTPicker2 is invalid.
+Line 306: The property name _ExtentY in DTPicker2 is invalid.
+Line 307: The property name _Version in DTPicker2 is invalid.
+Line 308: The property name Format in DTPicker2 is invalid.
+Line 309: The property name CurrentDate in DTPicker2 is invalid.
+Line 317: The property name _ExtentX in XPPanel3 is invalid.
+Line 318: The property name _ExtentY in XPPanel3 is invalid.
+Line 319: The property name HasLeftBorder in XPPanel3 is invalid.
+Line 320: The property name HasRightBorder in XPPanel3 is invalid.
+Line 321: The property name LicValid in XPPanel3 is invalid.
+Line 437: The property name _ExtentX in DTPicker1 is invalid.
+Line 438: The property name _ExtentY in DTPicker1 is invalid.
+Line 439: The property name _Version in DTPicker1 is invalid.
+Line 440: The property name Format in DTPicker1 is invalid.
+Line 441: The property name CurrentDate in DTPicker1 is invalid.
+Line 451: The property name _ExtentX in DTPicker4 is invalid.
+Line 452: The property name _ExtentY in DTPicker4 is invalid.
+Line 453: The property name _Version in DTPicker4 is invalid.
+Line 454: The property name Format in DTPicker4 is invalid.
+Line 455: The property name CurrentDate in DTPicker4 is invalid.
