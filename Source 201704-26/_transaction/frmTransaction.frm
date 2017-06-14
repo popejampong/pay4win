@@ -57,6 +57,7 @@ Begin VB.Form frmTransaction
       Width           =   4095
       _ExtentX        =   7223
       _ExtentY        =   1349
+      LicValid        =   -1  'True
       Begin VB.TextBox Text10 
          Appearance      =   0  'Flat
          BeginProperty Font 
@@ -140,6 +141,7 @@ Begin VB.Form frmTransaction
       _ExtentY        =   2566
       HasLeftBorder   =   0   'False
       HasRightBorder  =   0   'False
+      LicValid        =   -1  'True
       Begin VB.TextBox Text22 
          Alignment       =   1  'Right Justify
          Appearance      =   0  'Flat
@@ -353,6 +355,7 @@ Begin VB.Form frmTransaction
       Width           =   7890
       _ExtentX        =   13917
       _ExtentY        =   847
+      LicValid        =   -1  'True
       Begin VB.Label lblDuration 
          Alignment       =   1  'Right Justify
          BackStyle       =   0  'Transparent
@@ -424,6 +427,7 @@ Begin VB.Form frmTransaction
       EndProperty
       ForeColor       =   8421504
       Radius          =   20
+      LicValid        =   -1  'True
       Begin VB.TextBox Text2 
          Appearance      =   0  'Flat
          Enabled         =   0   'False
@@ -529,6 +533,7 @@ Begin VB.Form frmTransaction
          HasRightBorder  =   0   'False
          HasTopBorder    =   0   'False
          HasBottomBorder =   0   'False
+         LicValid        =   -1  'True
          Begin VB.TextBox Text2 
             Alignment       =   1  'Right Justify
             Appearance      =   0  'Flat
@@ -867,6 +872,7 @@ Begin VB.Form frmTransaction
       EndProperty
       ForeColor       =   8421504
       Radius          =   20
+      LicValid        =   -1  'True
       Begin VB.TextBox Text5 
          Alignment       =   1  'Right Justify
          Appearance      =   0  'Flat
@@ -1139,6 +1145,7 @@ Begin VB.Form frmTransaction
       EndProperty
       ForeColor       =   8421504
       Radius          =   20
+      LicValid        =   -1  'True
       Begin MSHierarchicalFlexGridLib.MSHFlexGrid MSHFlexGrid1 
          Height          =   6795
          Left            =   90
@@ -1205,6 +1212,7 @@ Begin VB.Form frmTransaction
       EndProperty
       ForeColor       =   8421504
       Radius          =   20
+      LicValid        =   -1  'True
       Begin VB.TextBox Text1 
          Appearance      =   0  'Flat
          ForeColor       =   &H00800000&
@@ -1305,6 +1313,7 @@ Begin VB.Form frmTransaction
       EndProperty
       ForeColor       =   8421504
       Radius          =   20
+      LicValid        =   -1  'True
       Begin VB.TextBox txtFlex 
          Appearance      =   0  'Flat
          Height          =   390
@@ -1380,6 +1389,7 @@ Begin VB.Form frmTransaction
       ForeColor       =   8421504
       BackStyle       =   1
       Radius          =   20
+      LicValid        =   -1  'True
       Begin ciaXPPanel.XPPanel XPPanel5 
          Height          =   3525
          Left            =   2580
@@ -1391,6 +1401,7 @@ Begin VB.Form frmTransaction
          HasRightBorder  =   0   'False
          HasTopBorder    =   0   'False
          HasBottomBorder =   0   'False
+         LicValid        =   -1  'True
          Begin VB.TextBox Text9 
             Alignment       =   1  'Right Justify
             Appearance      =   0  'Flat
@@ -1772,6 +1783,7 @@ Begin VB.Form frmTransaction
          HasLeftBorder   =   0   'False
          HasRightBorder  =   0   'False
          HasBottomBorder =   0   'False
+         LicValid        =   -1  'True
          Begin VB.TextBox Text5 
             Alignment       =   1  'Right Justify
             Appearance      =   0  'Flat

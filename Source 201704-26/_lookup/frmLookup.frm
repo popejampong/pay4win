@@ -224,8 +224,8 @@ Sub showPopup(ByVal nMode As Integer, Optional ByVal cCondition As String, Optio
             nPos = 1
             cTitle = "Position Lookup"
             myArray = Array("TXT:[ID]:10:True", _
-                            "TXT:[Description]:50:True", "TXT:[Designation]:20:True")
-            cSqlStmt = "select a.posid, a.posname, if(b.designation = 0,'SEWER', if(b.designation = 1,'NON-SEWER','')) as Designation from DI7670 a left join DI7673 b on a.posid = b.posid"
+                            "TXT:[Description]:50:True")
+            cSqlStmt = "select posid, posname from DI7670"
             
             
         Case 5
@@ -239,6 +239,7 @@ Sub showPopup(ByVal nMode As Integer, Optional ByVal cCondition As String, Optio
                             "NUM:[Working days]:13:True", _
                             "NUM:[Holiday]:13:True")
             cSqlStmt = " SELECT periodid,date_start,date_end,duration,if(pclose=1,'Close','Active') as pclose,workindays,holidays FROM pa7730 "
+                       
                        
         Case 6
             nPos = 1

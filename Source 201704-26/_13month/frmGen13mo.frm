@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{11931057-9334-4856-BDAF-C62B6B94B551}#1.1#0"; "ciaXPPanel.ocx"
+Object = "{11931057-9334-4856-BDAF-C62B6B94B551}#1.1#0"; "ciaxppanel.ocx"
 Begin VB.Form frmGen13mo 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "13 Month Pay Computation"
@@ -68,7 +68,6 @@ Begin VB.Form frmGen13mo
       BorderStyle     =   2
       HasLeftBorder   =   0   'False
       HasRightBorder  =   0   'False
-      LicValid        =   -1  'True
       Begin VB.Label Label3 
          Alignment       =   2  'Center
          BackStyle       =   0  'Transparent

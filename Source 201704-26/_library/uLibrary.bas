@@ -3035,12 +3035,15 @@ EndCompute:
     
     'Revised (201704-26)
     'If gCompanyID = "0003" Then
+    'Revised (201705-29)
+    If aTimeInfo(0) < 28800 Then
         aTimeInfo(0) = aTmpTime(0)
         aTimeInfo(3) = aTmpTime(3)
         aTimeInfo(5) = aTmpTime(5)
         aTimeInfo(13) = aTmpTime(13)
     'End If
-    
+    End If
+
     aTimeInfo(0) = Round((aTimeInfo(0) / 3600) / 8, 4)   ' --> Reg Day
     aTimeInfo(3) = Round((aTimeInfo(3) / 3600) / 8, 4)   ' --> NDiff Day
     

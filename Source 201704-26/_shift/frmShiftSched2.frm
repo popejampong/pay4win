@@ -918,21 +918,22 @@ Private Sub Command4_Click()
                             Script2File cSqlStmt
                             
                             '---------->  Alternate Time Schedule here (201703-02)
-                              cSqlStmt = "insert into DI36770A(empid,periodid,`date`,shiftid,time1,time2,`remark`)values(" & _
-                                       cQuote & oRecordSet("empid") & cQuote & "," & _
-                                       cQuote & Text5.Text & cQuote & "," & _
-                                       cQuote & Format(.TextMatrix(nCtr, 10), "yyyy-mm-dd") & cQuote & "," & _
-                                       cQuote & .TextMatrix(nCtr, 11) & cQuote & "," & _
-                                       cQuote & Format(.TextMatrix(nCtr, 13), "HH:MM:SS") & cQuote & "," & _
-                                       cQuote & Format(.TextMatrix(nCtr, 14), "HH:MM:SS") & cQuote & "," & _
-                                       cQuote & DecodeStr(.TextMatrix(nCtr, 7)) & cQuote & _
-                                       ") on duplicate key " & _
-                                       "update shiftid=" & cQuote & .TextMatrix(nCtr, 11) & cQuote & "," & _
-                                       " periodid=" & cQuote & Text5.Text & cQuote & "," & _
-                                       " time1=" & cQuote & Format(.TextMatrix(nCtr, 13), "HH:MM:SS") & cQuote & "," & _
-                                       " time2=" & cQuote & Format(.TextMatrix(nCtr, 14), "HH:MM:SS") & cQuote
-                            OpenQueryDNS cSqlStmt, objdbRs, True
-                            Script2File cSqlStmt
+                                        '-------------> Temporary Disabled (201705-30)
+'                              cSqlStmt = "insert into DI36770A(empid,periodid,`date`,shiftid,time1,time2,`remark`)values(" & _
+'                                       cQuote & oRecordSet("empid") & cQuote & "," & _
+'                                       cQuote & Text5.Text & cQuote & "," & _
+'                                       cQuote & Format(.TextMatrix(nCtr, 10), "yyyy-mm-dd") & cQuote & "," & _
+'                                       cQuote & .TextMatrix(nCtr, 11) & cQuote & "," & _
+'                                       cQuote & Format(.TextMatrix(nCtr, 13), "HH:MM:SS") & cQuote & "," & _
+'                                       cQuote & Format(.TextMatrix(nCtr, 14), "HH:MM:SS") & cQuote & "," & _
+'                                       cQuote & DecodeStr(.TextMatrix(nCtr, 7)) & cQuote & _
+'                                       ") on duplicate key " & _
+'                                       "update shiftid=" & cQuote & .TextMatrix(nCtr, 11) & cQuote & "," & _
+'                                       " periodid=" & cQuote & Text5.Text & cQuote & "," & _
+'                                       " time1=" & cQuote & Format(.TextMatrix(nCtr, 13), "HH:MM:SS") & cQuote & "," & _
+'                                       " time2=" & cQuote & Format(.TextMatrix(nCtr, 14), "HH:MM:SS") & cQuote
+'                            OpenQueryDNS cSqlStmt, objdbRs, True
+'                            Script2File cSqlStmt
                             
                             
                             ' --> DTR detail here - 20070307

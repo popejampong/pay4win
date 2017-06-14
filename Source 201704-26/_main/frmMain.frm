@@ -1,12 +1,12 @@
 VERSION 5.00
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "mswinsck.ocx"
-Object = "{F1C2FD4A-613D-432B-A4E4-0076F9414952}#1.1#0"; "ciaxpsidebarmenu.ocx"
+Object = "{F1C2FD4A-613D-432B-A4E4-0076F9414952}#1.1#0"; "ciaXPSideBarMenu.ocx"
 Begin VB.MDIForm frmMain 
    BackColor       =   &H8000000C&
    Caption         =   "Payroll & Time Management System for Dong-in Entech"
    ClientHeight    =   5400
-   ClientLeft      =   165
+   ClientLeft      =   225
    ClientTop       =   855
    ClientWidth     =   11400
    Icon            =   "frmMain.frx":0000
@@ -31,6 +31,7 @@ Begin VB.MDIForm frmMain
       Width           =   2685
       _ExtentX        =   4736
       _ExtentY        =   8864
+      LicValid        =   -1  'True
    End
    Begin MSComctlLib.ImageList ImageList1 
       Left            =   2760
@@ -82,16 +83,17 @@ Begin VB.MDIForm frmMain
          BeginProperty Panel2 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   6
             Alignment       =   1
-            TextSave        =   "5/2/2017"
+            TextSave        =   "3/13/2017"
          EndProperty
          BeginProperty Panel3 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   5
             Alignment       =   1
-            TextSave        =   "5:02 PM"
+            TextSave        =   "2:47 PM"
          EndProperty
          BeginProperty Panel4 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
             Style           =   3
             Alignment       =   1
+            Enabled         =   0   'False
             Object.Width           =   970
             MinWidth        =   970
             TextSave        =   "INS"
